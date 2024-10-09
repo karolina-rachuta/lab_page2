@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-const LazyAbout = React.lazy(() => import("./About"));
+import About from"./About";
 const LazyFooter = React.lazy(() => import("./Footer"));
 
 function Home() {
@@ -10,8 +10,10 @@ function Home() {
       <div className="container">
         <Navbar />
         <Hero />
-        <LazyAbout />
-        <LazyFooter />
+        <About />
+        <React.Suspense fallback="Loading...">
+          <LazyFooter />
+        </React.Suspense>
       </div>
     </>
   );

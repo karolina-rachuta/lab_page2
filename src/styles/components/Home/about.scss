@@ -1,6 +1,6 @@
 .about {
     width: 100%;
-    background-color: lightgray;
+    background-color: white;
     color: $hdl-color;
     padding-top: toRem(50px);
     padding-bottom: toRem(50px);
@@ -47,6 +47,10 @@
 
                 @media only screen and (max-width: toRem(950px)) {
                     width: 60%;
+                }
+
+                @media only screen and (max-width: toRem(550px)) {
+                    width: 90%;
                 }
 
                 .about__text {
