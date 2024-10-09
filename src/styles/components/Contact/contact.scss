@@ -1,0 +1,80 @@
+.container__contact {
+    height: 100vh;
+
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-light-color;
+
+    &__hdl {
+        background-color: $secondary-color;
+        width: 100%;
+        min-height: toRem(50px);
+        font-weight: 300;
+        color: $hdl-color;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: toRem(10px);
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: toRem(100px);
+        margin-bottom: toRem(100px);
+        align-items: center;
+
+    }
+
+    &__box {
+        padding: toRem(100px);
+        border-radius: toRem(5px);
+        background-color: $bg-light-color;
+        width: 80%;
+        max-width: toRem(800px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: toRem(20px);
+        color: $hdl-color;
+
+        @media only screen and (max-width: toRem(600px)) {
+            padding: toRem(70px);
+            width: 90%;
+        }
+
+        @media only screen and (max-width: toRem(450px)) {
+            padding: toRem(50px) toRem(20px);
+            width: 95%;
+        }
+    }
+
+    &__name {
+        align-self: flex-start;
+        font-weight: 600;
+    }
+
+    &__row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: toRem(15px);
+        justify-content: start;
+    }
+
+    &__icon {
+        width: toRem(30px);
+        height: auto;
+    }
+}

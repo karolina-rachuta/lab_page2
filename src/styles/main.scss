@@ -1,0 +1,42 @@
+@import './settings/reset.scss';
+@import './settings/variables.scss';
+@import './settings/utils.scss';
+@import './components/navbar.scss';
+@import './components/footer.scss';
+@import './components/home/hero.scss';
+@import './components/home/introduction.scss';
+@import './components/home/about.scss';
+@import './components/news/news.scss';
+@import './components/publications/publications.scss';
+@import './components/contact/contact.scss';
+@import './components/position/position.scss';
+@import './components/people/people.scss';
+
+
+html,
+body {
+    font-size: toRem($base-font-size);
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+body::before {
+    content: url(../assets/background.webp);
+    position: absolute;
+    top: -9999rem;
+    left: -9999rem;
+    opacity: 0;
+  }
+
+
+.container {
+    width: 100%;
+    max-width: toRem(1700px);
+    margin: 0 auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
