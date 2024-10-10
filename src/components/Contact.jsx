@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import PhoneIcon from "../assets/tel.png";
-import EmailIcon from "../assets/email.png";
-import LocationIcon from "../assets/location.png";
+import PhoneIcon from "../assets/tel.webp";
+import EmailIcon from "../assets/email.webp";
+import LocationIcon from "../assets/location.webp";
 
 function Contact() {
   return (

@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import people from "../data/people.json";
-import image_url from "../assets/avatar.png";
+import image_url from "../assets/avatar.webp";
 
 function People() {
   return (

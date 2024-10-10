@@ -21,14 +21,13 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-body::before {
-    content: url(../assets/background.webp);
+  body::before {
+    content: url(../assets/background.webp), url(../assets/image1.webp), url(../assets/image2.webp), url(../assets/image1.webp);
     position: absolute;
     top: -9999rem;
     left: -9999rem;
     opacity: 0;
   }
-
 
 .container {
     width: 100%;
@@ -38,5 +37,11 @@ body::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
+
+    @media only screen and (min-width: toRem(1700px)) {
+        border-right: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+        box-shadow: 2px 2px 10px 7px lightgray;
+    }
 }
