@@ -1,9 +1,9 @@
 .container__positions {
     height: 100vh;
 
-    // @media only screen and (max-width: toRem(770px)) {
-    //     height: 100%;
-    // }
+    @media only screen and (max-width: toRem(770px)) {
+        height: 100%;
+    }
 }
 
 .positions {
@@ -41,10 +41,20 @@
         text-align: justify;
         align-items: center;
         color: $hdl-color;
+        height: 100%;
+        justify-content: center;
 
-        // @media only screen and (max-width: toRem(770px)) {
-        //     padding: toRem(200px) toRem(20px);
-        // }
+        @media only screen and (min-width: toRem(576px)) and (max-width: toRem(960px)) {
+            justify-content: start;
+            padding: toRem(160px) toRem(20px);
+            height: 100vh;
+        }
+
+        @media only screen and (max-width: toRem(576px)) {
+            justify-content: start;
+            padding: toRem(90px) toRem(20px);
+            height: 100vh;
+        }
     }
 
     &__link {

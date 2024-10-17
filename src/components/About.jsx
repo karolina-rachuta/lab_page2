@@ -11,6 +11,8 @@ function About() {
             <img
               className="about__img"
               src={Image1}
+              width="450"
+              height="300"
               alt="image for about section"
             />
             <p className="about__text">
@@ -26,6 +28,8 @@ function About() {
           <div className="about__column">
             <img
               className="about__img"
+              width="450"
+              height="300"
               src={Image2}
               alt="image for about section"
             />
@@ -42,6 +46,8 @@ function About() {
           <div className="about__column">
             <img
               className="about__img"
+              width="450"
+              height="300"
               src={Image3}
               alt="image for about section"
             />

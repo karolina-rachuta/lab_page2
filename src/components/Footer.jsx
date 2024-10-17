@@ -14,7 +14,7 @@ function Footer() {
   return (
     <div className={isContactPage || isPositionPage ? "footer footer--border" : "footer"}>
       <Link to="/">
-        <img className="footer__logo" src={Logo} alt="Logo icon" />
+        <img className="footer__logo" src={Logo} width="40" height="40" alt="Logo icon" />
       </Link>
       <div className="footer__text-box">
         <p className="footer__text"><img className="footer__img" src={EmailIcon} alt="Email icon" /> xyz@amu.edu.pl</p>

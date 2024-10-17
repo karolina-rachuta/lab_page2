@@ -21,7 +21,7 @@ function Navbar() {
     <header className="header">
       <div className="logo__box">
         <Link to="/">
-          <img className="logo__img" src={Logo} alt="Logo icon" />
+          <img className="logo__img" src={Logo} width="40" height="40" alt="Logo icon" />
         </Link>
         <div className="hamburger" onClick={handleHamburgerMenu}>
           <span></span>

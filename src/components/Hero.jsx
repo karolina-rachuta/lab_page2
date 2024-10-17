@@ -1,6 +1,6 @@
 function Hero () {
     return (
-        <div className="hero">
+        <div className="hero" height="500">
           <h1>Laboratory of Spectroscopy</h1>
         </div>
     )
