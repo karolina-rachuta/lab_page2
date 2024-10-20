@@ -6,6 +6,7 @@ Demo for lab group.
 
 https://lab-website2-d821c.web.app/
 
+![screenshot](./src/assets/demo.png)
 ## Tech Stack:
 
 - React js

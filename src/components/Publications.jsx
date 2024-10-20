@@ -32,16 +32,15 @@ function Publications() {
                   {authors.map((author) => author)}
                 </p>
                 <p className="publication__date">
-                  {" "}
                   <span style={{ fontStyle: "italic" }}>
                     {journal_name},
-                  </span>{" "}
+                  </span>
                   <span style={{ fontWeight: "700" }}>{year}</span>, {volume},{" "}
-                  {pages}{" "}
+                  {pages}
                 </p>
                 <p className="publication__text">{short_description}</p>
                 <a className="publication__link" href="{url}">
-                  More{" "}
+                  More
                   <img
                     className="publication__linkIcon"
                     src={LinkIcon}

@@ -36,14 +36,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        // margin-top: toRem(100px);
-        // margin-bottom: toRem(100px);
-        // align-items: center;
-
     }
 
     &__box {
-        // padding: toRem(100px);
         border-radius: toRem(5px);
         background-color: $bg-light-color;
         width: 80%;
@@ -67,12 +62,6 @@
             padding: toRem(90px) toRem(20px);
             width: 90%;
         }
-
-        // @media only screen and (max-width: toRem(450px)) {
-        //     // padding: toRem(110px) toRem(20px);
-        //     padding-inline: toRem(20px);
-        //     width: 95%;
-        // }
     }
 
     &__name {
